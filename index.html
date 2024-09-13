@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .company-logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .company-logo img {
+            width: 200px;
+            height: auto;
+        }
+
+        .game-list {
+            display: flex;
+            justify-content: space-around;
+            /* Space between the two blocks */
+            gap: 20px;
+            /* Gap between games */
+        }
+
+        .game-block {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            max-width: 512px;
+            margin: auto;
+        }
+
+        .game-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .game-icon {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 42%;
+            left: 226px;
+            border-radius: 10px;
+            border-color: #333;
+        }
+
+        .game-title {
+            font-size: 1.5em;
+            color: #333;
+            margin-top: 70px;
+        }
+
+        .game-description {
+            margin: 10px 0;
+        }
+
+        .full-description {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .store-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .store-links img {
+            width: 150px;
+            margin-right: 10px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #e9e9e9;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Company Logo -->
+    <!-- <div class="company-logo">
+        <img src="https://via.placeholder.com/200x100" alt="Company Logo">
+    </div> -->
+
+    <h1>Our Mobile Games</h1>
+
+    <!-- Game List (Two Blocks Side by Side) -->
+    <div class="game-list">
+
+        <!-- Game 1 Block -->
+        <div class="game-block">
+            <img src="images/Cryppzle.jpg" alt="Cryppzle Image", style="width: 512px;">
+            <div class="game-icon">
+                <img src="images/Crypzzle_icon.png" alt="Cryppzle Icon" , style="width: 100px;height: 100px;">
+            </div>
+            <h2 class="game-title">Crypzzle</h2>
+            <p class="game-description">Crypzzle: Puzzle and cryptography game collection.</p>
+            <p class="full-description">Discover Crypzzle, a logic and cryptography game offering unique puzzles like
+                Cryptogram and Mastermind. Enjoy offline play, auto-save, and progress tracking. Perfect for all skill
+                levels! Install now for free!</p>
+
+            <!-- Store Links as Images -->
+            <div class="store-links">
+                <a href="https://play.google.com/store/apps/details?id=levitanstudio.crypzzle" target="_blank">
+                    <img src="assets/Googleplay.webp" alt="Google Play">
+                </a>
+                <a href="https://apps.apple.com" target="_blank">
+                    <img src="assets/Appstore.webp" alt="App Store">
+                </a>
+            </div>
+        </div>
+
+        <!-- Game 2 Block -->
+        <div class="game-block">
+            <img src="images/MindReels.jpg" alt="MindReels", style="width: 512px;">
+            <div class="game-icon">
+                <img src="images/MindReels_icon.png" alt="MindReels Icon" ,
+                    style="width: 100px;height: 100px;background-color: white; border-radius: 20px;">
+            </div>
+            <h2 class="game-title">MindReels</h2>
+            <p class="game-description">Master math with MindReels! Solve tasks from arithmetic to integrals.</p>
+            <p class="full-description">Master math with MindReels! From arithmetic to advanced topics, enjoy
+                personalized progress tracking, global scoreboards, and regular updates to challenge and improve your
+                skills while having fun.</p>
+
+            <!-- Store Links as Images -->
+            <div class="store-links">
+                <a href="https://play.google.com/store/apps/details?id=levitanstudio.mind_reels" target="_blank">
+                    <img src="assets/Googleplay.webp" alt="Google Play">
+                </a>
+                <!-- <a href="https://apps.apple.com" target="_blank">
+                    <img src="assets/Appstore.webp" alt="App Store">
+                </a> -->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+        <p><strong>Contact Us:</strong></p>
+        <p>Email: <a
+                href="mailto:contact@levitanstudio.xyz?subject=Contcat&body=I would like to know more about your services.">contact@levitanstudio.xyz</a>
+        </p>
+        <!-- <p>Address: 123 Game Street, Game City, Country</p> -->
+    </div>
+
+</body>
+
+</html>
